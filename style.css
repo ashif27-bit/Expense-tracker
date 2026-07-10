@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:380px;
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1,h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.balance-box{
+    background:#4CAF50;
+    color:#fff;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.summary{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.income-box,
+.expense-box{
+    width:48%;
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.income-box{
+    background:#d4edda;
+    color:#155724;
+}
+
+.expense-box{
+    background:#f8d7da;
+    color:#721c24;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+input,
+select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+button{
+    padding:12px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#388E3C;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#eee;
+    margin:10px 0;
+    padding:10px;
+    border-radius:6px;
+}
+
+.income{
+    border-left:6px solid green;
+}
+
+.expense{
+    border-left:6px solid red;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
+
+@media(max-width:420px){
+
+.container{
+    width:95%;
+}
+
+.summary{
+    flex-direction:column;
+    gap:10px;
+}
+
+.income-box,
+.expense-box{
+    width:100%;
+}
+
+}
