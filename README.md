@@ -19,28 +19,6 @@ A simple and responsive Expense Tracker built using **HTML**, **CSS**, and **Jav
 - JavaScript (ES6)
 - Local Storage API
 
-## 📂 Project Structure
-
-```
-Expense-Tracker/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-```
-
-## 🚀 How to Run
-
-1. Download or clone the project.
-2. Open the project folder.
-3. Double-click `index.html`.
-
-No installation required.
-
-## 📸 Screenshot
-
-Add a screenshot named `screenshot.png` inside the project folder and include it here.
-
 ## 👨‍💻 Author
 
 Ashif Mohamed
